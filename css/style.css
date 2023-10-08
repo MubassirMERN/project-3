@@ -1,0 +1,738 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ol,ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* ================= navber start hare ================= */
+#nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 16px 0;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_manu{
+    display: flex;
+    column-gap: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_manu ul{
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+}
+.nav_manu ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #BBBBCB;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    transition: all linear 0.3s;
+}
+.nav_manu ul li a:hover{
+    color: #fff;
+}
+.nav_btn a{
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    padding: 16px 48px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+    background-color: transparent;
+}
+.nav_btn a:hover{
+    background-color: #FCD980;
+}
+/* ================= navber end hare =================== */
+
+/* ================= banner start hare ================= */
+#banner{
+    background-color: #1C1E53;
+    padding: 218px 0 228px 0;
+}
+.banner_wrapper{
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+}
+.banner_content{
+    width: 582px;
+}
+.banner_content h1{
+   font-size: 54px;
+   font-weight: 600;
+   color: #fff;
+   line-height: 74px;
+   text-transform: capitalize;
+   font-family: 'Poppins', sans-serif;
+    width: 582px;
+    margin-bottom: 24px;
+}
+.banner_content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    width: 562px;
+    margin-bottom: 48px;
+}
+.banner_btn a{
+    background-color: #FCD980;
+    padding: 16px 56px;
+    border-radius: 41px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Manrope', sans-serif;
+    color: #1B1C2B;
+}
+.banner_btn a:last-child{
+    background-color: transparent;
+    color: #fff;
+}
+.banner_img{
+    width: 638px;
+}
+/* ================= banner end hare =================== */
+
+/* ================= work start hare ================= */
+#work{
+    background-color: #F4F6FC;
+    padding: 128px 0;
+}
+.work_wrapper{
+    display: flex;
+    column-gap: 142px;
+}
+.work_heading{
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.work_main{
+    width: 656px;
+    margin-right: 77px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+.work_item{
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+}
+.work_item h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 16px 0 8px 0;
+    text-transform: capitalize;
+}
+.work_item p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 303px;
+}
+.section_heading{
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    line-height: 64px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+.pera{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.work_heading a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #2405F2;
+    font-family: 'Poppins', sans-serif;
+}
+/* ================= work end hare =================== */
+
+/* ================= project start hare ================= */
+#project{
+    padding: 128px 0;
+}
+.project_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project_heading a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+.project_heading a i{
+    vertical-align: center;
+    margin-left: 16px;
+}
+.project_main{
+    margin-top: 64px;
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+}
+.big_project{
+    height: 600px;
+    width: 843px;
+    overflow: hidden;
+    position: relative;
+}
+.big_project img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.big_project .overlay{
+    width: 396px;
+    height: 100%;
+    position: absolute;
+    left: -396px;
+    top: 0;
+    z-index: 55;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    padding: 332px 0 76px 49px;
+    transition: all linear 0.3s;
+}
+.big_project .overlay h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #fff;
+    width: 313px;
+    margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.big_project .overlay .pera{
+    width: 293px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.big_project .overlay a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FCD980;
+}
+.big_project:hover .overlay{
+    left: 0;
+}
+.small_project{
+    width: 405px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.small_item{
+    width: 100%;
+    height: 284px;
+    overflow: hidden;
+    position: relative;
+}
+.small_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.small_item .overlay{
+    padding: 129px 36px 45px 56px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.small_item .overlay h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #fff;
+    width: 290px;
+    margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.small_item .overlay a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FCD980;
+}
+.small_item:hover .overlay{
+    opacity: 1;
+}
+/* ================= project end hare =================== */
+
+/* ================= Features start hare ================= */
+#Features{
+    background-color: #F4F6FC;
+    padding: 128px 0;
+}
+.Features_heading{
+    text-align: center;
+}
+.Features_heading h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+    text-transform: capitalize;
+}
+.Features_heading .section_heading{
+    width: 630px;
+    margin: 12px auto 47px auto;
+}
+.features_wrapper{
+    display: flex;
+    column-gap: 32px;
+    row-gap: 24px;
+    flex-wrap: wrap;
+}
+.features_item{
+    width: 405px;
+    background: #fff;
+    padding: 58px 32px 48px 48px;
+}
+.features_item i{
+    color: #2405F2;
+    font-size: 25px;
+}
+.features_item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+    margin-top: 22px;
+}
+.features_item p{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.7;
+}
+/* ================= Features end hare =================== */
+
+/* ================= client start hare ================= */
+#client{
+    background-color: #e9edf8;
+    padding: 128px 0;
+}
+.client_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.client_heading{
+    width: 327px;
+}
+.client_heading h2, .faq_heading h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px; 
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 16px;
+}
+.client_heading p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+.client_main{
+    width: 843px;
+}
+.client_item h3{
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 48px;
+    color: #282938;
+    margin-bottom: 48px;
+}
+.client_info{
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+}
+.client_avater{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: centerFAQ
+}
+.client_avater img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.client_details h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+    text-transform: capitalize;
+}
+.client_details h5{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+}
+
+/* ================= client end hare =================== */
+
+/* ================= FAQ start hare ================= */
+#faq{
+    padding: 128px 0;
+}
+.faq_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.faq_heading{
+    width: 328px;
+}
+.faq_heading a{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #2405F2;
+    font-weight: 500;
+    line-height: 32px;
+}
+.faq_main{
+    width: 846px;
+}
+.faq_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 2px solid #ECECF1;
+    padding: 32px 0;
+}
+.faq_info{
+    display: flex;
+    column-gap: 53px;
+}
+.faq_number span{
+    color: #2405F2;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 36px;
+}
+.faq_details h3{
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px; 
+}
+.faq_details p{
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+   padding: 16px 25px 0 0;
+}
+.faq_icon i{
+    colour: #282938;
+    opacity: 0.7;
+    font-size: 18px;
+    line-height: 36px;
+}
+.faq_main .faq_item:last-child{
+    border-bottom: none;
+}
+/* ================= FAQ end hare =================== */
+
+/* ================= inquiry start hare ================= */
+#inquiry{
+
+}
+.inquiry_wrapper{
+    display: flex;
+}
+.inquiry_img{
+    width: 656px;
+    overflow: hidden;
+    height: 691px;
+    position: relative;
+}
+.inquiry_img picture{
+    width: inherit;
+    height: inherit;
+}
+.inquiry_img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.inquiry_img .overlay{
+    background-color: rgba(28, 30, 83, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 96px;
+}
+.inquiry_img .overlay h2{
+    color:  #FFF;
+    font-size: 54px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 74px;
+    padding-bottom: 24px;
+}
+.inquiry_img .overlay p{
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+}
+.inquiry_form{
+    width: 624px;
+    height: 200px;
+    background-color: #1C1E53;
+    height: 691px;
+    padding: 96px 96px 48px 96px;
+}
+.inquiry_form h4{
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 48px;
+    padding-bottom: 16px;
+    color: #fff;
+}
+.inquiry_form p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    color: #F4F6FC;
+    padding-bottom: 40px;
+
+}
+.inquiry_form form input{
+    height: 64px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: transparent;
+    padding: 18px 32px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #F4F6FC;
+    font-weight: 400;
+    line-height: 28px;
+}
+.inquiry_form form button{
+    background-color: #FCD980;
+    height: 64px;
+    width: 100%;
+    border: none;
+    border-radius: 41px;
+    margin-top: 23px;
+    color: #1B1C2B;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.inquiry_form a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #fff;
+    margin-top: 28px;
+    text-align: center;
+    display: block;
+}
+..inquiry_form a i{
+    align-items: center;
+}
+/* ================= inquiry end hare =================== */
+
+/* ================= navber start hare ================= */
+/* ================= navber end hare =================== */
+
+/* ================= footer start hare ================= */
+#footer{
+    background-color: #1C1E53;
+    padding: 95px 0;
+    margin-top: 128px;
+}
+.footer_wrapper{
+    display: flex;
+    column-gap: 260px;
+    position: relative;
+}
+.footer_content p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    margin-top: 22px;
+    opacity: 0.8;
+}
+.footer_item h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+.footer_item p{
+    color: #F4F6FC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 28px;
+    opacity: 0.8;
+    width: 399px;
+}
+.footer_icon i{
+    color: #FFFFFF;
+    padding-right: 26px;
+}
+.contact{
+    width: 517px;
+    height: 95px;
+    background-color: #FCD980;
+    position: absolute;
+    left: 0;
+    bottom: -95px;
+    padding: 18px 0 16px 37px;
+}
+.contact_wrapper{
+    display: flex;
+    column-gap: 30px;
+}
+.contact_email h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+}
+.contact_email a{
+    color: #282938;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+}
+.contact_call h3{
+    color: #282938;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+}
+.contact_call a{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    font-family: 'Poppins', sans-serif;
+}
+/* ================= footer end hare =================== */
+
+/* ================= copyright start hare ================= */
+#Copyright{
+    padding: 32px 0;
+}
+.copyright_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright_email a{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+.copyright_manu ul{
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+}
+.copyright_manu ul li a{
+    color: #282938;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+/* ================= copyright end hare =================== */
